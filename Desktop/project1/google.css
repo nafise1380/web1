@@ -1,0 +1,348 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+html{
+    font-size: 100%;
+    font-family: "shahab";
+}
+
+body{
+    max-width: 1200px;
+    min-width: 480px;
+}
+
+
+
+.item{
+    padding: 1rem;
+    
+    color: rgb(247, 78, 78);
+    font-weight: bold;
+    font-style: italic;
+    
+
+   
+}
+
+
+img{
+    width: 50%;
+    height: 80%;
+    border-radius: 50%;
+    border: 1px solid black;
+    
+   
+}
+
+
+img:hover {
+    scale: 1.5;
+    
+} 
+
+
+.Roocket{
+    text-decoration: none;
+    display: block;
+   
+}
+
+
+.header{
+    background: linear-gradient(red,yellow,black);
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    border: 1px solid red;
+    
+   
+    
+}
+
+.item input{
+    box-sizing: border-box;
+    border: 1px dashed rgb(14, 11, 10);
+    border-radius: 1rem;
+    width: 100%;
+    height: 40%;
+    background-color: rgb(247, 215, 243);
+    font-size: 1rem;
+    outline: none;
+    
+    
+}
+
+
+.item input:hover{
+    background-color: rgb(132, 199, 193);
+    
+}
+
+
+button{
+    margin-left: .5rem;
+    font-family: inherit;
+    font-weight: bold;
+    border: 1px solid red;
+   
+
+}
+
+button:focus{
+    background-color: pink;
+}
+
+.item1{
+    flex-basis: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+
+}
+
+
+.item2{
+    flex-basis: 20%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    
+}
+
+.item2 a{
+    padding: .5rem;
+}
+
+
+.Roocket:hover{
+    display: block;
+    color: chartreuse;
+   
+}
+
+.color h1{
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 1rem;
+    text-shadow:2px 2px 5px rgb(222, 20, 54) ;
+    font-style: italic;
+}
+
+
+
+
+
+.article{
+    
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    display: flex;
+    gap: 1rem;
+    
+    
+    
+}
+
+.table{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    background: linear-gradient(rgb(240, 240, 84),rgb(243, 150, 164),rgb(240, 176, 57));
+    padding: 1rem;
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid black;
+   
+    
+}
+
+
+
+.table .thead th{
+    color: red;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: blanchedalmond;
+    
+
+}
+
+
+.tbody td{
+    border: 1px solid black;
+    padding: 1rem;
+
+}
+
+.tbody tr{
+    border-top: 1px solid black;
+}
+
+
+
+
+
+
+.cotent{
+    background-color: rgb(251, 227, 183);
+    flex-basis:80%;
+    text-align: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    
+    
+
+    
+}
+
+
+
+
+
+
+.sidebar{
+    background-color: rgb(251, 211, 165);
+    
+    flex-basis: 20%;
+    
+    
+
+    
+}
+
+.music{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: normal;
+ 
+
+}
+
+
+
+.title{
+    
+    color: white;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.section{
+    background-color: rgb(227, 86, 86);
+    flex-basis: 80%;
+    padding: 1rem;
+   
+}
+
+.about{
+    background-color: cornflowerblue;
+    flex-basis: 20%;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+
+
+.footer{
+    background-color: rgb(51, 51, 205);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
